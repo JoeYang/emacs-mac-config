@@ -1,0 +1,63 @@
+;; proxy not needed
+ (setq url-proxy-services
+    '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+      ("http" . "proxy:8080")
+      ("https" . "proxy:8080")))
+
+;; packages
+(load "package")
+(package-initialize)
+(add-to-list 'package-archives
+             '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/"))
+(add-to-list 'package-archives
+             '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+
+(setq package-archive-enable-alist '(("melpa" deft magit)))
+
+;; bind key
+(setq mac-command-modifier 'meta)
+
+;; cycling buffers
+;; cycle through buffers with Ctrl-Tab (like Firefox)
+(global-set-key (kbd "<C-tab>") 'bury-buffer)
+(global-set-key (kbd "<M-tab>") 'other-window)
+;;(global-set-key (kbd "<M-tab>") 'other-window)
+
+;; tool bar
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+
+;; color theme
+(add-to-list 'load-path "~/.emacs.d/emacs-color-theme-solarized")
+(require 'color-theme-solarized)
+(color-theme-solarized)
+
+(set-default-font "Monaco 16")
+
+(defvar my-packages '(better-defaults
+                      projectile
+                      clojure-mode
+                      cider))
+
+(dolist (p my-packages)
+  (unless (package-installed-p p)
+    (package-install p)))
+
+;; Show parenthesis mode
+(show-paren-mode 1)
+
+(require 'rainbow-delimiters)
+(add-hook 'clojure-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'clojure-mode-hook 'paredit-mode)
+(add-hook 'cider-repl-mode-hook 'paredit-mode)
+
+(rainbow-delimiters-mode)
+
+(add-to-list 'exec-path "/usr/local/bin")
+
+;; disable the annoying box
+(setq visible-bell nil) ;; The default
+(setq ring-bell-function 'ignore)
+

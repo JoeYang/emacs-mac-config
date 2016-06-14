@@ -1,0 +1,69 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/JoeYang/Personal/opencv-2.4.13/samples/java/clojure/simple-sample/src/" . "simple_sample/")
+ ("/Users/JoeYang/Personal/opencv-2.4.13/samples/java/clojure/simple-sample/" . "src/")
+ ("/Users/JoeYang/Personal/opencv-2.4.13/samples/java/clojure/" . "simple-sample/")
+ ("/Users/JoeYang/Personal/opencv-2.4.13/samples/java/" . "clojure/")
+ ("/Users/JoeYang/Personal/opencv-2.4.13/samples/" . "java/")
+ ("/Users/JoeYang/Personal/opencv-2.4.13/" . "samples/")
+ ("/Users/JoeYang/Personal/test/test/src/" . "test/")
+ ("/Users/JoeYang/Personal/test/test/" . "src/")
+ ("/Users/JoeYang/Personal/test/" . "test/")
+ ("/Users/JoeYang/Personal/" . "opencv-2.4.13/")
+ ("/Users/JoeYang/.emacs.d/" . "auto-save-list/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/JoeYang/Personal/opencv-2.4.13/samples/java/clojure/simple-sample/"
+ "/Users/JoeYang/Personal/opencv-2.4.13/samples/java/clojure/simple-sample/src/simple_sample/"
+ "/Users/JoeYang/"
+ "/Users/JoeYang/Personal/test/test/src/test/"
+ "/Users/JoeYang/Personal/test/test/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "project.clj"
+ "core.clj"
+ ".emacs"
+ "*scratch*"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/JoeYang/Personal/opencv-2.4.13/samples/java/clojure/simple-sample/src/simple_sample/" (22341 19649 0 0) "core.clj" "../" "./")
+
+ ("/Users/JoeYang/Personal/opencv-2.4.13/samples/java/clojure/simple-sample/src/" (22294 41294 0 0) "simple_sample/" "../" "./")
+
+ ("/Users/JoeYang/Personal/opencv-2.4.13/samples/java/clojure/simple-sample/" (22342 40578 0 0) "test/" "target/" "src/" "resources/" "project.clj" "dev-resources/" ".nrepl-port" ".DS_Store" "../" "./")
+
+ ("/Users/JoeYang/Personal/opencv-2.4.13/samples/java/clojure/" (22341 19614 0 0) "simple-sample/" ".DS_Store" "../" "./")
+
+ ("/Users/JoeYang/Personal/opencv-2.4.13/samples/java/" (22294 41294 0 0) "sbt/" "eclipse/" "clojure/" "ant/" "../" "./")
+
+ ("/Users/JoeYang/Personal/opencv-2.4.13/samples/" (22294 41294 0 0) "winrt/" "python2/" "python/" "ocl/" "MacOSX/" "java/" "gpu/" "cpp/" "CMakeLists.txt" "c/" "android/" "../" "./")
+
+ ("/Users/JoeYang/Personal/opencv-2.4.13/" (22341 17080 0 0) "samples/" "README.md" "platforms/" "modules/" "LICENSE" "index.rst" "include/" "doc/" "data/" "CONTRIBUTING.md" "CMakeLists.txt" "cmake/" "build/" "apps/" "3rdparty/" ".tgitconfig" "../" "./")
+
+ ("/Users/JoeYang/Personal/" (22342 41250 0 0) "test/" "stanford-english-corenlp-2016-01-10-models.jar" "stanford-chinese-corenlp-2016-01-19-models.jar" "opencv-2.4.13/" "kobe/" "ffmpeg/" "emacsstuff/" "CoreNLP/" "blog-scala-javacv/" ".DS_Store" "../" "./")
+
+ ("/Users/JoeYang/" (22349 14219 0 0) "Work/" "wekafiles/" "vpn/" "tmp/" "Public/" "Pictures/" "Personal/" "NVIDIA_CUDA-7.5_Samples/" "Music/" "Movies/" "misc/" "Library/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Bin/" "Applications/" ".zinc/" ".viminfo" ".vim/" ".Trash/" ".ssh/" ".spark_history" ".scala_history" ".sbt/" ".rnd" ".psql_history" ".profile" ".oracle_jre_usage/" ".m2/" ".lesshst" ".lein/" ".jmc/" ".ivy2/" ".IdeaIC15/" ".idea-build/" ".gitignore_global" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs" ".eclipse/" ".DS_Store" ".dropbox/" ".docker/" ".config/" ".CFUserTextEncoding" ".bash_sessions/" ".bash_profile" ".bash_history" ".android/" "*scratch*" "#*scratch*#" "../" "./")
+
+ ("/Users/JoeYang/Personal/test/test/" (22341 24002 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "dev-resources/" "CHANGELOG.md" ".nrepl-port" ".hgignore" ".gitignore" "../" "./")
+
+ ("/Users/JoeYang/Personal/test/test/src/test/" (22341 23763 0 0) "core.clj" ".#core.clj" "#core.clj#" "../" "./")
+
+ ("/Users/JoeYang/Personal/test/test/src/" (22341 11656 0 0) "test/" "../" "./")
+
+ ("/Users/JoeYang/Personal/test/" (22341 11656 0 0) "test/" "../" "./")
+
+ ("/Users/JoeYang/.emacs.d/auto-save-list/" (22341 22481 0 0) ".saves-64755-Joes-Macbook-Pro~" "../" "./")
+
+ ("/Users/JoeYang/.emacs.d/" (22341 22457 0 0) "places" "emacs-color-theme-solarized/" "elpa/" "backups/" "auto-save-list/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
